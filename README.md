@@ -26,6 +26,7 @@ moodtwin-app/
 ├── app_v3.py
 ├── predict_v3.py
 ├── extract_video_emotion_fixed.py
+├── extract_video_emotion_v3.py
 ├── requirements.txt
 ├── README.md
 │
@@ -153,7 +154,7 @@ http://localhost:8501
 2. Select a song ID
 3. Choose an input mode:
    - Manual input
-   - CSV upload
+   - CSV upload (Record a video while running the experiment. Run `extract_video_emotion_v3.py` after changing the `VIDEO_PATH` and `OUTPUT_DIR`. Then upload the generated CSV file in the app.)
    - Start recording (webcam)
 4. Enter listener profile information
 5. Click **Run personalized prediction**
