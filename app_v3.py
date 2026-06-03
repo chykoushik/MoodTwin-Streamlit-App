@@ -22,7 +22,7 @@ st.set_page_config(
     layout="wide"
 )
 
-DEEPSEEK_API_KEY = "sk-2305f4cb643a4a35af5ddfbe1c83175a"
+DEEPSEEK_API_KEY = ""
 
 deepseek_client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
